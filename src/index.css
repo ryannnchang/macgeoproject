@@ -2,6 +2,9 @@
 
 @theme {
   --color-mcmaster: #760039;
+  --color-mcmastergray: #636363;
+  --color-mcmastergreen: #8DD349;
+  --color-mcmasterred: #CF3530;
 }
 
 :root {
@@ -22,11 +25,7 @@ h1 {
 }
 
 button {
-  border-radius: 1.5em;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
   cursor: pointer;
   transition: border-color 0.25s;
 }

@@ -5,7 +5,7 @@ export default function StartGame() {
   return (
     <>
       <Link to="/game">
-        <button className="bg-mcmaster text-white">Play Game</button>
+        <button className="bg-mcmaster text-white rounded-3xl font-bold text-base px-2">Play Game</button>
       </Link>
     </>
   )
